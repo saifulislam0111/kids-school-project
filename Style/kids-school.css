@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Fira Sans' ;
+}
+.body{
+    margin: 15px 140px;
+}
+.nav-group{
+    display: flex;
+    align-items: center;
+}
+.nav-group h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px ;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+nav ul li a:hover{
+    color: #ea1538;
+    transition: .3s;
+}
+.btn-primary{
+    border: none;
+    color: white;
+    background-color: rgb(254, 163, 1);
+    padding: 16px 60px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.banner{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 50px;
+}
+.banner-heading{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+#span-style{
+    color: rgb(254, 163, 1);
+}
+#span-style-2{
+    color: rgb(1, 172, 253);
+}
+.banner-frame p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner-btn{
+    border: none;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+    padding: 12px 45px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.standard-curriculum{
+    margin-top: 60px;
+}
+.card-parent{
+    display: flex;
+}
+.card{
+    text-align: center;
+}
