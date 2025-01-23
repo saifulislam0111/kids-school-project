@@ -197,4 +197,70 @@ nav ul li a:hover{
     justify-content: center;
     align-items: center;
 }
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 180px;
+    padding: 125px 180px 174px 100px;
+    background-color: rgb(1, 172, 253);
+    color: white;
+}
+.group-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#group-one-heading{
+    font-size: 42px;
+    font-weight: 600;
+}
+#footer-paragraph{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-left: 55px;
+}
+.footer-group-two{
+    padding-top: 20px;
+}
+.footer-group-two-heading{
+    font-size: 24px;
+    font-weight: 600;
+}
+.footer-group-two ul{
+    padding-top: 40px;
+}
+.footer-group-two ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 20px;
+}
+.footer-group-two ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+.footer-group-three ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.footer-group-three ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer-group-three-heading{
+    font-size: 24px;
+    font-weight: 600;
+}
+.footer-group-three{
+    padding-top: 25px;
+}
+.footer-group-three ul{
+    display: flex;
+    padding-top: 38px;
+}
 
